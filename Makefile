@@ -3,7 +3,7 @@ CFLAGS=-c
 LDFLAGS=
 SOURCES=joystick.c
 OBJECTS=$(SOURCES:.c=.o)
-EXECUTABLE=jsc
+EXECUTABLE=jsx
 
 all: $(SOURCES) $(EXECUTABLE)
 	
